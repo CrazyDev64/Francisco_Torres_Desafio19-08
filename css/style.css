@@ -1,19 +1,13 @@
 body{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
   background: #f8f8f8;
-  width: 100%;
-  margin: 0 0% 0 20%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header{
-  height: 20em;
+  height: 150px;
+  max-width: 100%;
   background-image: url("../imgs/premium_photo-1697672423600-4c05924755b0.avif");
   background-size: cover;
   background-position: center;
-  margin-bottom: 3em;
   text-align: center;
   
 }
@@ -67,8 +61,11 @@ border-collapse: separate;
 padding: 2em;
 }
 .products img {
-width: 100%;
-height: auto;
+width: 500px;
+height: 250px;
+object-fit: cover;
 border: solid 1px #ddd;
+display: block;
+margin: auto;
 }
 
