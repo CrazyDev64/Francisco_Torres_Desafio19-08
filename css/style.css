@@ -1,5 +1,12 @@
 body{
+  display: flex;
+  flex-direction: column;
   background: #f8f8f8;
+  margin: 0px;
+}
+
+.content-wrap {
+  flex-grow: 1; /* Allow the content area to grow and fill available space */
 }
 
 .header{
@@ -11,36 +18,16 @@ body{
   text-align: center;
   
 }
-
-.header .main-text{
-  padding: 3em;
-  font-size: 2em;
-  font-weight: 400;
-}
-
 .header h1{
   margin: 0px;
   font-weight: 400;
   
-}
-
-p{
-  text-align: center;
 }
 .main {
   width: 80%;
   margin: auto;
 }
 
-.main td{
-  width: 50%;
-  padding: 2em;
-}
-
-.main img{
-  max-width: 100%;
-  border: solid 1px #ddd;
-}
 
 .footer{
   height: 3em;
@@ -49,23 +36,32 @@ p{
   color: white;
   text-align: center;
   font-weight: 900;
+  margin: 0;
+  position: static;
 }
 
 .products {
-width: 80%;
+width: 50%;
 margin: auto;
 }
-.products td {
-width: 100%;
-border-collapse: separate;
-padding: 2em;
+
+.products table {
+  width: 100%;
+  margin: 2em auto;
+  
 }
+
+
+
+
+
 .products img {
+
 width: 500px;
 height: 250px;
 object-fit: cover;
 border: solid 1px #ddd;
 display: block;
-margin: auto;
+margin: 0 ;
 }
 
